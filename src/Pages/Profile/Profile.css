@@ -1,0 +1,47 @@
+.profile {
+  @apply flex  flex-col flex-wrap bg-white rounded-lg p-12 items-center w-full self-center;
+}
+
+.profile__title {
+  @apply text-gray-700 font-bold text-2xl uppercase;
+}
+
+.profile_divider {
+  @apply bg-slate-700 h-1 w-4/5 my-5;
+}
+
+.profile__form {
+  @apply flex flex-col text-gray-700 w-2/5;
+}
+
+.profile__formField {
+  @apply mt-5;
+}
+
+.profile__formLabel {
+  @apply uppercase text-sm text-gray-600 font-bold;
+}
+
+.profile__formInput {
+  @apply w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none;
+}
+
+.profile__formInputError {
+  @apply block text-red-400 text-xs;
+}
+
+.error {
+  @apply border-red-400 focus:border-red-400 border-2 focus:border-2;
+}
+
+.profile__actions {
+  @apply flex justify-between;
+}
+
+.profile__actionsConfirm {
+  @apply bg-green-500 hover:bg-green-700 text-white font-semibold text-sm py-2 px-4 mt-2 w-fit rounded-full;
+}
+
+.profile__actionsSubmit {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-semibold text-sm py-2 px-4 mt-2 w-fit rounded-full;
+}

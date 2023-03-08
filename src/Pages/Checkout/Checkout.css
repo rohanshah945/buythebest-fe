@@ -1,0 +1,39 @@
+.checkout {
+  @apply flex flex-col flex-wrap bg-white rounded-lg p-12 text-gray-700;
+}
+
+.checkout_title {
+  @apply flex flex-1 justify-center text-3xl font-semibold text-gray-700;
+}
+
+.checkout_divider {
+  @apply bg-slate-700 h-1 w-full my-5 self-center;
+}
+
+.checkout__body {
+  @apply flex flex-row w-full mt-5 justify-around;
+}
+
+.checkout__bodySection {
+  @apply flex-col m-5 mt-0 w-1/2 border-2 p-10 h-full;
+}
+
+.checkout__bodySectionTitle {
+  @apply flex flex-1 justify-center text-xl font-semibold text-gray-700 uppercase;
+}
+
+.checkout__formField {
+  @apply mt-5;
+}
+
+.checkout__formLabel {
+  @apply uppercase text-sm text-gray-600 font-bold;
+}
+
+.checkout__formInput {
+  @apply w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none;
+}
+
+.checkout__formSubmit {
+  @apply text-white font-bold px-5 py-2 rounded focus:outline-none shadow hover:bg-blue-700  transition-colors float-right;
+}

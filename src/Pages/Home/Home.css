@@ -1,0 +1,16 @@
+.home {
+  height: 100%;
+}
+
+.homeBody {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(135, 206, 235),
+    rgba(135, 206, 235, 0.75)
+  );
+  @apply h-full min-h-screen;
+}

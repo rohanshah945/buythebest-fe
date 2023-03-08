@@ -1,0 +1,35 @@
+.support {
+  @apply flex  flex-col flex-wrap bg-white rounded-lg p-12 items-center w-4/5 self-center;
+}
+
+.support__title {
+  @apply text-gray-700 font-bold text-2xl uppercase;
+}
+
+.support_divider {
+  @apply bg-slate-700 h-1 w-4/5 my-5;
+}
+
+.support__form {
+  @apply flex flex-col text-gray-700;
+}
+
+.support__formTitle {
+  @apply font-bold text-xl;
+}
+
+.support__formField {
+  @apply mt-5;
+}
+
+.support__formLabel {
+  @apply uppercase text-sm text-gray-600 font-bold;
+}
+
+.support__formInput {
+  @apply w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none;
+}
+
+.support__formSubmit {
+  @apply text-white font-bold px-5 py-2 rounded focus:outline-none shadow hover:bg-blue-700  transition-colors float-right;
+}

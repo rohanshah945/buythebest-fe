@@ -1,0 +1,32 @@
+.order {
+  @apply flex flex-col p-4 bg-gray-200 my-3 rounded;
+}
+
+.order__id {
+  @apply font-bold;
+}
+
+.order__items {
+  @apply flex flex-col space-y-2 mt-2;
+}
+
+.order__item {
+  @apply flex flex-row space-x-4;
+}
+
+.order__itemImage {
+  width: 80px;
+  object-fit: contain;
+}
+
+.order__footer {
+  @apply flex flex-row justify-between;
+}
+
+.order__footerPayment {
+  @apply flex flex-row mt-4 text-lg capitalize;
+}
+
+.order__footerTotal {
+  @apply flex flex-row mt-4 text-lg font-bold justify-end;
+}

@@ -1,0 +1,15 @@
+.orders {
+  @apply flex flex-col flex-wrap bg-white rounded-lg p-12 text-gray-700;
+}
+
+.orders_title {
+  @apply flex flex-1 justify-center text-3xl font-semibold text-gray-700;
+}
+
+.orders_divider {
+  @apply bg-slate-700 h-1 w-full my-5 self-center;
+}
+
+.orders__body {
+  @apply flex flex-col w-full;
+}

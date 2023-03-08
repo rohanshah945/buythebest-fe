@@ -1,0 +1,7 @@
+.active {
+  @apply text-white bg-blue-600 border-blue-600;
+}
+
+.error {
+  @apply border-red-400 focus:border-red-400;
+}
